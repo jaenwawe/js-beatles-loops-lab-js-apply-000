@@ -29,9 +29,9 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(number){
   let counter = Math.abs(15,number)
   
-  var loves =  "I love the Beatles!"
+  var loves = `"I love the Beatles!"`
   var lovesArray = []
-  if (number ==8) counter = 7
+  if (number < 15) counter = 15-number
   do{
   
     lovesArray.push(loves)
