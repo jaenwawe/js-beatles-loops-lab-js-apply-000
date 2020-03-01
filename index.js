@@ -31,7 +31,7 @@ function iLoveTheBeatles(number){
   
   
   if (number >15) counter = Math.abs(15,number)
-  if (number < 15)  counter = 15 - number
+  if (number < 15)  counter = 16 - number
   
   var loves =  "I love the Beatles!"
   var lovesArray = []
