@@ -31,7 +31,7 @@ function iLoveTheBeatles(number){
   
   var loves = `"I love the Beatles!"`
   var lovesArray = []
-  if (number < 15) counter = 15-number
+ // if (number < 15) counter = 15-number
   do{
   
     lovesArray.push(loves)
